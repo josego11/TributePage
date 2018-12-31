@@ -2,56 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
   <title>Tribute Page</title>
 </head>
+
 <body>
+
   <header>
     <div id="title">
       <h2>Nikola Tesla</h2>
     </div>
   </header>
 
-  <div id="navbar" class="container">
+  <div id="navbar">
     <ul>
-      <li>Who he was</li>
-      <li>What he did</li>
-      <li>Tesla vs. Edison</li>
-      <li>Thanks</li>
+      <li><a href="#">Who he was</a></li>
+      <li><a href="#">What he did</a></li>
+      <li><a href="#">Tesla vs. Edison</a></li>
+      <li><a href="#">Thanks</a></li>
     </ul>
   </div>
 
-  <div id="main" class="container">
+  <div id="main" class="container-fluid">
 
-    <div id="section-who" class="container">
-      <div class="col-lg-6" id="img-div">
-        <img src="https://bit.ly/2ThXfdC" alt="Tesla-Tribute-Page">
-      </div>
-      <div class="col-lg-6" id="tribute-info">
-        <h3>Who he was</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quibusdam, fuga doloribus, vero, porro sed, facere veritatis odio voluptate harum quisquam! Amet doloribus eaque earum, mollitia, temporibus porro explicabo iste.</p>
+    <div id="section-who">
+      <div class="row">
+        <div class="col-md-6" id="img-div">
+          <img src="https://bit.ly/2BMiEEC" alt="Tesla-Tribute-Page">
+        </div>
+        <div class="col-md-6" id="tribute-info">
+          <h3>Who he was</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quibusdam, fuga doloribus, vero, porro sed, facere veritatis odio voluptate harum quisquam! Amet doloribus eaque earum, mollitia, temporibus porro explicabo iste.</p>
+        </div>
       </div>
     </div>
 
-    <div id="section-what" class="container">
-      <div class="col-lg-6" id="img-div">
-        <img class="img-responsive" src="https://bit.ly/2Sy4zBW" alt="Tesla-Tribute-Page">
-      </div>
-      <div class="col-lg-6" id="tribute-info">
-        <h3>What he did</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum tenetur, fugiat placeat velit amet debitis molestiae deserunt, assumenda neque eaque officiis. Vitae similique ipsam quia voluptates repellat soluta in alias.</p>
+    <div id="section-what">
+      <div class="row">
+        <div class="col-md-6" id="tribute-info">
+          <h3>What he did</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum tenetur, fugiat placeat velit amet debitis molestiae deserunt, assumenda neque eaque officiis. Vitae similique ipsam quia voluptates repellat soluta in alias.</p>
+        </div>
+        <div class="col-md-6" id="img-div">
+          <img class="img-responsive" src="https://goo.gl/wKXeds" alt="Tesla-Tribute-Page">
+        </div>
       </div>
     </div>
 
-    <div id="section-vid" class="container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/noekh4Dsw-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="section-vid">
+      <iframe width="760" height="500" src="https://www.youtube.com/embed/noekh4Dsw-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
   </div>
 
-  <footer></footer>
+  <footer>
+    <h4>Thanks for checking this out</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora reprehenderit, dolorem quis incidunt repellendus facilis esse expedita perspiciatis suscipit rem aut sunt, harum a recusandae magnam voluptatibus maiores deleniti distinctio!</p>
+  </footer>
 </body>
 </html>
